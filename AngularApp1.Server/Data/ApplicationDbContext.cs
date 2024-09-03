@@ -8,7 +8,7 @@ namespace AngularApp1.Server.Data
             : base(options)
         {
         }
-
+        public DbSet<UserRM> Users { get; set; }
         public DbSet<Product> Products { get; set; }
     }
 }
